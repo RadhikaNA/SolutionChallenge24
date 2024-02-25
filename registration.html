@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registration - Life on Land Project</title>
+</head>
+<body>
+    <div class="container">
+        <div id="registrationPage">
+            <h2>Choose Your Role</h2>
+            <form id="registrationForm">
+                <label for="role">Select your role:</label>
+                <select id="role" name="role" required>
+                    <option value="contributor">Contributor</option>
+                    <option value="common">Common People</option>
+                    <option value="wildlifeOfficer">Wildlife Protection Officer</option>
+                    <option value="environmentOfficer">Environment Protection Officer</option>
+                </select>
+
+                <button type="button" onclick="register()">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Load Firebase SDK first -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-functions.js"></script>
+
+    <!-- Load your registration.js script after Firebase SDK -->
+    <script type="module" src="registration.js"></script>
+</body>
+</html>

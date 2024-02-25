@@ -1,0 +1,43 @@
+<!-- contributor.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contributor.css">
+    <title>Contributor Page</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome, Contributor!</h2>
+        <p>Choose an option:</p>
+        
+        <div id="options">
+            <button onclick="showContent('blogs')">Blogs</button>
+            <button onclick="showContent('research')">Research</button>
+            <button onclick="showContent('newIdeas')">New Ideas</button>
+        </div>
+
+        <div id="blogsContent" class="content" style="display: none;">
+            <!-- Content for Blogs -->
+            <h3>Blogs</h3>
+            <p>This section contains blogs contributed by users.</p>
+        </div>
+
+        <div id="researchContent" class="content" style="display: none;">
+            <!-- Content for Research -->
+            <h3>Research</h3>
+            <p>This section contains research articles contributed by users.</p>
+        </div>
+
+        <div id="newIdeasContent" class="content" style="display: none;">
+            <!-- Content for New Ideas -->
+            <h3>New Ideas</h3>
+            <p>This section contains new ideas contributed by users.</p>
+        </div>
+    </div>
+
+    <script src="contributor.js"></script>
+</body>
+</html>
