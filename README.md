@@ -36,7 +36,7 @@ Stay tuned for updates in this section!
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com//life-on-land-project.git
+    git clone https://github.com//life-on-land-project.git](https://github.com/RadhikaNA/SolutionChallenge24.git
     ```
 
 2. Open the project in your preferred code editor.
